@@ -29,6 +29,40 @@ function HomepageHeader() {
     );
 }
 
+function AboutUs() {
+    return (
+        <section className={styles.aboutUsSection}>
+            <div className="container">
+                <h2>About TSG</h2>
+                <div className={styles.aboutUsSubsection}>
+                    <h3>Who We Are</h3>
+                    <p>
+                        The Technology Strategy Group (TSG) is a student-led consulting organization at the University of Virginia.
+                        Our team consists of passionate problem-solvers specializing in technology-driven solutions.
+                    </p>
+                </div>
+                <div className={styles.aboutUsSubsection}>
+                    <h3>Our Mission</h3>
+                    <p>
+                        Our mission is to empower small businesses with innovative technology strategies that drive growth and efficiency.
+                        We are dedicated to providing professional-grade consulting services while developing future leaders in technology and business.
+                    </p>
+                </div>
+                <div className={styles.aboutUsSubsection}>
+                    <h3>What We Offer</h3>
+                    <p>
+                    TSG offers customized consulting services, including IT strategy, software development, and digital transformation solutions.
+                    <p></p>
+                    What sets TSG apart is our unwavering commitment to understanding the unique challenges and goals of each client. By blending innovative technologies with a client-first approach, we deliver impactful results that align with your specific needs.
+                    <p></p>
+                    At TSG, we prioritize building strong, lasting relationships because we know that successful partnerships are rooted in trust, collaboration, and a deep understanding of your business. Your success is our priority, and we’re here to guide you every step of the way 
+                    </p>
+                </div>
+            </div>
+        </section>
+    );
+}
+
 function ClientForm() {
     const [formData, setFormData] = useState({
         name: '',

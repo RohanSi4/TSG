@@ -79,7 +79,7 @@ const config = {
         title: 'My Site',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/TSGicon.ico',
         },
         items: [
           {
@@ -94,6 +94,7 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          { to: '/team', label: 'Meet the Team', position: 'left' },
         ],
       },
       footer: {
@@ -112,12 +113,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/company/technology-strategy-group1/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Instagram',
+                href: 'https://www.instagram.com/tsgconsulting/',
               },
               {
                 label: 'X',

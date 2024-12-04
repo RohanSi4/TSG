@@ -169,6 +169,7 @@ export default function Home() {
             description="Empowering businesses with tech solutions at UVA and beyond. Contact us to learn more.">
             <HomepageHeader />
             <main>
+                <AboutUs />
                 <ClientForm />
             </main>
         </Layout>

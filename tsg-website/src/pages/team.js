@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import styles from '../components/HomepageFeatures/team.module.css'; // Optional for custom styling
+import styles from '../components/HomepageFeatures/team.module.css';
 
     // Data for the team members
 const TeamMembers = {

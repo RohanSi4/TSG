@@ -3,21 +3,52 @@
  * and scoped locally.
  */
 
-.heroBanner {
-  padding: 4rem 0;
+ .heroBanner {
+  padding: 4rem 1rem;
   text-align: center;
-  position: relative;
-  overflow: hidden;
+  background: linear-gradient(135deg, #3a7bd5, #3a6073);
+  color: #fff;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.clientFormSection {
+  padding: 2rem 1rem;
+  background-color: #f9f9f9;
 }
 
-.buttons {
+.clientForm {
+  max-width: 600px;
+  margin: 0 auto;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.clientForm label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.clientForm input,
+.clientForm textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.clientForm button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.clientForm button:hover {
+  background-color: #0056b3;
 }

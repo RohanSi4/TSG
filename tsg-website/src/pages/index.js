@@ -42,11 +42,27 @@ function ClientForm() {
         setFormData({ ...formData, [name]: value });
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log('Client Information Submitted:', formData);
-        alert('Thank you for reaching out! We will get back to you shortly.');
-        setFormData({ name: '', email: '', company: '', message: '' });
+        try {
+            const response = await fetch('http://localhost:5001/api/companies', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData),
+            });
+
+            if (response.ok) {
+                alert('Thank you for reaching out! We will get back to you shortly.');
+                setFormData({ name: '', email: '', company: '', message: '' });
+            } else {
+                alert('Failed to submit the form. Please try again.');
+            }
+        } catch (error) {
+            console.error('Error submitting form:', error);
+            alert('An error occurred. Please try again later.');
+        }
     };
 
     return (

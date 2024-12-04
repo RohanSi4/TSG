@@ -44,8 +44,9 @@ function AboutUs() {
                 <div className={styles.aboutUsSubsection}>
                     <h3>Our Mission</h3>
                     <p>
-                        Our mission is to empower small businesses with innovative technology strategies that drive growth and efficiency.
-                        We are dedicated to providing professional-grade consulting services while developing future leaders in technology and business.
+                        Our mission is to ignite the potential of startups and small businesses by harnessing the power of technology and fostering a culture of innovation.
+                        <p></p>
+                        We strive to build a supportive community where creativity meets strategy, empowering our partners to reach sustainable growth and redefine their industries.
                     </p>
                 </div>
                 <div className={styles.aboutUsSubsection}>

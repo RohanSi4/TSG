@@ -76,18 +76,12 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Home',
         logo: {
           alt: 'My Site Logo',
           src: 'img/TSGicon.ico',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
@@ -101,16 +95,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
+            title: 'Connect With TSG',
             items: [
               {
                 label: 'LinkedIn',
@@ -119,10 +104,6 @@ const config = {
               {
                 label: 'Instagram',
                 href: 'https://www.instagram.com/tsgconsulting/',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
               },
             ],
           },
@@ -134,9 +115,8 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+                label: 'Meet The Team',
+                to: '/team'
             ],
           },
         ],

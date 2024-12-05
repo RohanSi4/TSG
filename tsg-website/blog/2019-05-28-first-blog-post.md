@@ -1,12 +1,12 @@
 ---
-slug: first-blog-post
-title: First Blog Post
-authors: [slorber, yangshun]
-tags: [hola, docusaurus]
+slug: making-an-impact-small-business-1
+title: Supporting a Local Bakery's Growth
+tags: [impact, small-business, solutions]
 ---
 
-Lorem ipsum dolor sit amet...
+TSG collaborated with a local bakery to digitize their order management system, improving efficiency by 30%.
 
 <!-- truncate -->
 
-...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+This initiative allowed the bakery to expand its customer base, reduce manual errors, and focus more on their craft. By implementing a custom solution tailored to their needs, TSG demonstrated its commitment to empowering small businesses.
+

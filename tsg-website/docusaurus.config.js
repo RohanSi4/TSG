@@ -82,12 +82,7 @@ const config = {
           src: 'img/TSGicon.ico',
         },
         items: [
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          {to: '/blog', label: 'Making An Impact', position: 'left'},
           { to: '/team', label: 'Meet the Team', position: 'left' },
         ],
       },
@@ -111,7 +106,7 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
+                label: 'Learn About Our Impact',
                 to: '/blog',
               },
               {

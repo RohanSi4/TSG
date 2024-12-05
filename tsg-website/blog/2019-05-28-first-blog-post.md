@@ -2,6 +2,7 @@
 slug: making-an-impact-small-business-1
 title: Supporting a Local Bakery's Growth
 tags: [impact, small-business, solutions]
+date: 2024-12-03
 ---
 
 TSG collaborated with a local bakery to digitize their order management system, improving efficiency by 30%.

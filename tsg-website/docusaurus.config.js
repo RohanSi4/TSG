@@ -111,7 +111,7 @@ const config = {
               },
               {
                 label: 'Meet The Team',
-                to: '/team'
+                to: '/team',
             ],
           },
         ],

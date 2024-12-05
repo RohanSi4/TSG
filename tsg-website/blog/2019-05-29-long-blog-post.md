@@ -2,6 +2,7 @@
 slug: making-an-impact-in-community-1
 title: Engaging in the Charlottesville Community
 tags: [impact, volunteering, philanthropy]
+date: 2024-12-03
 ---
 
 Technology Strategy Group volunteered at a local elementary school this holiday season.

@@ -1,11 +1,10 @@
 ---
-slug: long-blog-post
-title: Long Blog Post
-authors: yangshun
-tags: [hello, docusaurus]
+slug: making-an-impact-in-community-1
+title: Engaging in the Charlottesville Community
+tags: [impact, volunteering, philanthropy]
 ---
 
-This is the summary of a very long blog post,
+Technology Strategy Group volunteered at a local elementary school this holiday season.
 
 Use a `<!--` `truncate` `-->` comment to limit blog post size in the list view.
 
